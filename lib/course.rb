@@ -3,5 +3,5 @@ class Course
 
   @@all = []
 
-  def initialize()
+  def initialize
 end
