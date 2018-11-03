@@ -12,7 +12,7 @@ class Scraper
     page.css(".post").each do |post|
       course = Course.new
       course.title = post.css("h2").text
-      course.schedule = post.css()
+      course.schedule = post.css(".date")
     end
 
   end
