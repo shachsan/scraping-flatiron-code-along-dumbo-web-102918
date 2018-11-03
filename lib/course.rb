@@ -7,5 +7,6 @@ class Course
     @@all << self
   end
 
-  def 
+  def self.all
+    
 end
