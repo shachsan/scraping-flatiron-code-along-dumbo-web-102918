@@ -11,7 +11,7 @@ class Scraper
     # binding.pry
     page.css(".post").each do |post|
       course = Course.new
-      course
+      course.title = 
     end
 
   end
