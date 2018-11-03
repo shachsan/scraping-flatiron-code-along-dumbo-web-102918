@@ -23,3 +23,4 @@ class Scraper
   end
 
 end
+Scraper.
