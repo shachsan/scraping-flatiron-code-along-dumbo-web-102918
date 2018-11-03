@@ -10,7 +10,7 @@ class Scraper
     page = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
     # binding.pry
     page.css(".post").each do |post|
-      course
+      course =
     end
 
   end
